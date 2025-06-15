@@ -29,7 +29,6 @@ A simple web-based application designed for students to manage and track their i
 
 ## 📸 Screenshots
 
-> *(Add actual screenshots in the `assets/` folder and update the paths here)*
 
 ### 🔐 Login Page  
 ![Login Page](assets/login.jpeg)
