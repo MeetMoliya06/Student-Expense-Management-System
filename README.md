@@ -68,21 +68,13 @@ A simple web-based application designed for students to manage and track their i
 	•	Start Apache and MySQL
 	•	Open http://localhost/Student-Expense-Management-System/ in your browser
 
-⸻
-
-🧠 Future Enhancements
-	•	🔔 Budget alerts or reminders
-	•	📱 Mobile-responsive design
-	•	📥 Google login support
-	•	🌐 Progressive Web App (PWA) support
-
-⸻
+---
 
 🤝 Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you’d like to change.
 
-⸻
+---
 
 🙋‍♂️ Author
 
