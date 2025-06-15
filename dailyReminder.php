@@ -4,10 +4,10 @@
 // error_reporting(E_ALL);
 
 
-require_once 'config.php'; // DB connection
-require 'mailer.php'; // Your PHPMailer setup file
+require_once 'config.php'; 
+require 'mailer.php';
 
-// Get users (adjust if you have a `users` table)
+
 $query = $conn->query("SELECT DISTINCT google_id, email FROM users");
 
 while ($user = $query->fetch_assoc()) {

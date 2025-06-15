@@ -17,7 +17,7 @@ if (isset($_GET["code"])) {
         $google_id = $data['id'];
         $email = $data['email'];
         $first_name = $data['given_name'];
-        $last_name = isset($data['family_name']) ? $data['family_name'] : ''; // Use empty string if last_name is missing
+        $last_name = isset($data['family_name']) ? $data['family_name'] : ''; 
         $profile_picture = $data['picture'];
 
         // Check if user exists

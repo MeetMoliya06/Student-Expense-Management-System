@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require_once __DIR__ . '/vendor/autoload.php'; // or your PHPMailer include path
+require_once __DIR__ . '/vendor/autoload.php'; 
 
 function sendMail($to, $subject, $body) {
     $mail = new PHPMailer(true);
@@ -12,8 +12,8 @@ function sendMail($to, $subject, $body) {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'meet.moliya.mm@gmail.com';
-        $mail->Password = 'hgaeslefwdyubdpz';
+        $mail->Username = 'YOUR_USERNAME';
+        $mail->Password = 'YOUR_PASSWORD';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
@@ -25,7 +25,7 @@ function sendMail($to, $subject, $body) {
         $mail->Body    = $body;
 
         if ($mail->send()) {
-            return true; // ✅ Mail actually sent
+            return true; // 
         } else {
             return false;
         }
